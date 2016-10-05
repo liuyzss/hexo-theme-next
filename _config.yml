@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "I'CODING MY LIFE!"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -29,11 +29,16 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
+  # essay: /categories/随笔
+  # write: /categories/写作
+  # study: /categories/学习
+  # code: /categories/编程
+  # wiki: /categories/wiki
 
 
 # Enable/Disable menu icons.
@@ -43,7 +48,7 @@ menu:
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
   enable: true
-  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
   categories: th
@@ -59,9 +64,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -82,13 +87,14 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Monda
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
     external: true
     family:
+    #Roboto Slab
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -102,13 +108,14 @@ font:
   logo:
     external: true
     family:
-    size:
+    #Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family:
-
+    # PT Mono
 
 
 
@@ -211,8 +218,8 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 500
 
 
 # Wechat Subscriber
